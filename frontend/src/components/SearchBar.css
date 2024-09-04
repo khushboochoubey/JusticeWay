@@ -1,0 +1,12 @@
+/* src/components/SearchBar.css */
+
+.search-bar {
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  

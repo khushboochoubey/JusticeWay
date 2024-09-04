@@ -1,0 +1,112 @@
+/* src/components/Navbar.css */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #003366; /* Updated color */
+  padding: 10px 20px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  box-sizing: border-box; /* Ensure padding is included in width calculation */
+}
+
+.navbar-logo-link {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logo-image {
+  height: 50px;
+}
+
+.navbar-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  margin-right: 20px; /* Adjust right margin to keep list centered */
+}
+
+.navbar-item {
+  margin: 0 15px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  position: relative;
+}
+
+.navbar-item:hover,
+.navbar-item:focus {
+  color: #ddd;
+}
+
+.navbar-item-right {
+  display: flex;
+  align-items: center;
+  margin-left: auto; /* Ensure this item is aligned to the right */
+}
+
+.user-profile {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.user-image {
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  object-fit: cover;
+  border: 2px solid #fff;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 60px;
+  right: 20px; /* Ensure the dropdown aligns well within the screen */
+  background-color: #444;
+  border-radius: 8px;
+  padding: 10px 0;
+  list-style: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+.dropdown-item {
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+  background-color: #555;
+  color: #ddd;
+}
+
+.logout-button {
+  background: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+}
+
+.logout-button:hover,
+.logout-button:focus {
+  background-color: #555;
+}
+.navbar-logo-image {
+  height: 50px;
+  width: 50px; /* Set width equal to height for a perfect circle */
+  border-radius: 50%; /* Make the image circular */
+  object-fit: cover; /* Ensure the image covers the entire circle */
+  border: 2px solid #fff; /* Optional: Add a white border around the circle */
+}
+

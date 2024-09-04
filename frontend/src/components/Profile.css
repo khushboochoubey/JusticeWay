@@ -1,0 +1,159 @@
+/* General Layout */
+.profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    background-color: #f9f9f9; /* Very light grey background */
+    min-height: 100vh;
+    font-family: 'Arial', sans-serif;
+}
+
+.profile-card {
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    padding: 30px;
+    text-align: center;
+    margin: 20px;
+    border: 1px solid #e0e0e0; /* Subtle border */
+}
+
+/* Profile Header */
+.profile-header h1 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+/* Profile Image Section */
+.profile-image-section {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 1px solid #181217;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    margin-bottom: 15px;
+}
+
+.profile-image-controls {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.upload-label,
+.delete-button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.95em;
+    border: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.upload-label {
+    background-color: #4CAF50; /* Green color for Upload */
+    color: #ffffff;
+    display: inline-block;
+}
+
+.upload-label:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
+.file-input {
+    display: none;
+}
+
+.delete-button {
+    background-color: #ff4d4d; /* Red color for Delete */
+    color: #ffffff;
+}
+
+.delete-button:hover {
+    background-color: #e03b3b;
+    transform: scale(1.05);
+}
+
+/* User Information */
+.user-info {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.input-field {
+    width: calc(100% - 20px);
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #ced4da;
+    border-radius: 8px;
+    font-size: 1em;
+    background-color: #f1f1f1; /* Slightly darker background for input fields */
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.save-button,
+.edit-button {
+    padding: 12px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+    font-size: 1em;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.save-button {
+    background-color: #4CAF50;
+    color: #ffffff;
+}
+
+.save-button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
+.edit-button {
+    background-color: #4CAF50;
+    color: #ffffff;
+    width: 100%;
+}
+
+.edit-button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
+/* Info Section */
+.info-section {
+    margin-top: 20px;
+}
+
+.info-section .info-label {
+    margin-bottom: 10px;
+    color: #495057;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.info-section .info-label span {
+    color: #212529;
+    font-weight: normal;
+}

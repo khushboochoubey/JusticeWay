@@ -1,0 +1,90 @@
+.report-corruption-container {
+    padding: 20px;
+}
+
+.report-corruption-container h1 {
+    text-align: center;
+    margin: 0;
+    padding-bottom: 20px; /* Optional padding to add some space below */
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+input[type="text"], textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    padding: 10px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    background-color: green; /* Green color for submit button */
+    width: 125px; /* Set a consistent width */
+    display: block;
+    margin: 10px auto; /* Center the button horizontally */
+}
+
+button[type="submit"]:hover {
+    opacity: 0.8;
+}
+
+.status-update {
+    margin-top: 20px;
+    color: green;
+}
+
+.report-history {
+    margin-top: 20px;
+}
+.report-history h2{
+    margin-top: 20px;
+    color: rgb(27, 22, 22);
+}
+
+.report-history ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.report-history li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: #f9f9f9;
+}
+
+.status-button {
+    padding: 5px 10px;
+    border: none;
+    color: white;
+    border-radius: 3px;
+    width: 100px; /* Set a fixed width for consistency */
+    text-align: center;
+}
+
+.status-button.pending {
+    background-color: red;
+}
+
+.status-button.reviewed {
+    background-color: #007bff; /* Changed to blue for reviewed button */
+}
+
+.status-button.closed {
+    background-color: green; /* Added green for closed button */
+}
+
+button[type="button"] {
+    background-color: green;
+    width: 100px; /* Consistent width for other buttons */
+}

@@ -1,0 +1,59 @@
+/* src/components/UserEducation.css */
+
+.user-education-container {
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    background: #f4f4f4; /* Light background for a clean look */
+    border-radius: 10px; /* Rounded corners for a modern feel */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    text-align: center;
+}
+
+.user-education-container h1 {
+    color: #003366;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.education-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Space between cards */
+}
+
+.education-card {
+    background: #ffffff; /* White background for cards */
+    padding: 20px;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for separation */
+    text-align: left; /* Align text to the left inside cards */
+    overflow: hidden; /* Ensure no content overflows */
+}
+
+.education-card h2 {
+    color: #003366;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.education-card p, .education-card ul {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.6; /* Improve readability */
+}
+
+.education-card ul {
+    padding-left: 20px; /* Indent list items */
+    list-style-type: disc; /* Use disc bullets */
+}
+
+.education-card li {
+    margin-bottom: 10px; /* Space between list items */
+}
+
+.education-card:hover {
+    background: #f0f0f0; /* Light grey background on hover */
+    cursor: pointer;
+    transition: background 0.3s ease;
+}

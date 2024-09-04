@@ -1,0 +1,112 @@
+/* src/components/DocumentStorage.css */
+
+.document-storage-container {
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    background: #f4f4f4; /* Light background for a clean look */
+    border-radius: 10px; /* Rounded corners for a modern feel */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.document-storage-container h1 {
+    color: #003366;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.document-storage-container p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.upload-section {
+    margin-bottom: 30px;
+}
+
+.upload-input {
+    display: none;
+}
+
+.upload-button {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 24px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.upload-button:hover {
+    background-color: #0056b3;
+}
+
+.document-list {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.document-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for separation */
+}
+
+.document-name {
+    font-size: 1.1rem;
+    color: #333;
+    flex: 1;
+}
+
+.document-actions {
+    display: flex;
+    gap: 10px; /* Space between buttons */
+}
+
+.action-button {
+    background-color: #007bff;
+    color: white;
+    padding: 8px 12px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.action-button:hover {
+    background-color: #0056b3;
+}
+
+.view-button {
+    background-color: #28a745; /* Green for view */
+}
+
+.view-button:hover {
+    background-color: #218838;
+}
+
+.download-button {
+    background-color: #ffc107; /* Yellow for download */
+    color: #333;
+}
+
+.download-button:hover {
+    background-color: #e0a800;
+}
+
+.replace-button {
+    background-color: #dc3545; /* Red for replace */
+}
+
+.replace-button:hover {
+    background-color: #c82333;
+}
