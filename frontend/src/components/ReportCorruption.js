@@ -78,7 +78,8 @@ const ReportCorruption = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
 
-        fetch('http://localhost:5002/api/reports', {
+        //fetch('http://localhost:5002/api/reports', {
+        fetch(`${window.location.origin}/api/reports`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
